@@ -1,6 +1,6 @@
 # Adjust Code challenge
-<h4>The application is built with Elixir 1.8</h4>
-<h5>The dependency libraries used are:- </h5>
+<h3>The application is built with Elixir 1.8 and Postgresql 10 is used for the Database</h3>
+<br/><h4>The dependency libraries used are:- </h4>
 
 ```
 {:postgrex, ">= 0.0.0"}
@@ -10,56 +10,56 @@
 {:plug_cowboy, "~> 2.0"}
 ```
 
-<br/><h4>The application needs to its dependencies and has to be built prior to execution.</h4>
+<br/><h3>The application needs to its dependencies and has to be built prior to execution.</h3>
 
-<br/><h5>Before building the app, if there any Database or Cowboy configuration you need to change,
-    please use the</h5>
+<br/><h4>Before building the app, if there any Database or Cowboy configuration you need to change,
+    please use the</h4>
     
 ```
 config/config.exs
 ```     
 
-<h5>For the database, You can alter the values username:, password:, hostname: and port: . 
+<h4>For the database, You can alter the values username:, password:, hostname: and port: . 
     And for the Cowboy you can alter the port number
-</h5> 
+</h4> 
 
-<br/><h5>To get the dependencies and compile the files run:</h5>
+<br/><h4>To get the dependencies and compile the files run:</h4>
 
 ```
 mix do deps.get, compile
 ```
 
-<br/><h5>To run the test case run:</h5>
+<br/><h4>To run the test case run:</h4>
 
 ```
 mix test
 ```
 
-<br/><h5>To execute the app you can either run:</h5>
+<br/><h4>To execute the app you can either run:</h4>
 
 ```
 mix run --no-halt
 ``` 
 
-<br/><h5>or if you prefer to have a <u>iex ></u> prompt run:</h5>
+<br/><h4>or if you prefer to have a <u>iex ></u> prompt run:</h4>
 
 ```
 iex -S mix
 ```  
 
-<br/><h5>To view the table by using a <u>GET</u> request run: </h5>
+<br/><h4>To view the table by using a <u>GET</u> request run: </h4>
 
 ```
 curl -h http://localhost:4000/dbs/foo/tables/source
 ``` 
 
-<h5>or</h5>
+<h4>or</h4>
 
 ```
 curl -h http://localhost:4000/dbs/bar/tables/dest
 ```
 
-<br/><h5>And the output produced is as below. The result is trimmed due to the length of the output</h5>
+<br/><h4>And the output produced is as below. The result is trimmed due to the length of the output</h4>
 
 ```
 $ curl -v http://localhost:4000/dbs/foo/tables/source
@@ -109,21 +109,21 @@ $ curl -v http://localhost:4000/dbs/foo/tables/source
 * Connection #0 to host localhost left intact
 ```
 
-<br/><h5>It can also be run on the browser from this url</h5>
+<br/><h4>It can also be run on the browser from this url</h4>
 
 ```
 http://localhost:4000/
 ```
 
-<h5>A basic html page is displayed with 2 links i.e. <u>Foo Page</u> and <u>Bar Page</u><h5>
+<h4>A basic html page is displayed with 2 links i.e. <u>Foo Page</u> and <u>Bar Page</u><h4>
 
-<br/><h5>The <u>Foo Page</u> link redirects you to</h5> 
+<br/><h4>The <u>Foo Page</u> link redirects you to</h4> 
 
 ```
 http://localhost:4000/dbs/foo/tables/source
 ```
 
-<h5>and the <u>Bar Page</u> link redirects you to </h5>
+<h4>and the <u>Bar Page</u> link redirects you to </h4>
 
 ```
 http://localhost:4000/dbs/bar/tables/dest
