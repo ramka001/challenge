@@ -43,7 +43,6 @@ mix test
 ```
 mix run --no-halt
 ``` 
-##
 
 #### or if you prefer to have a *iex >* prompt run:
 
@@ -52,7 +51,7 @@ iex -S mix
 ```  
 
 ##
-#### To view the table by using a *GET* request run:
+#### To view the table by using a *GET* type request run:
 
 ```
 curl -h http://localhost:4000/dbs/foo/tables/source
