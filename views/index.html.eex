@@ -1,0 +1,23 @@
+<html>
+  <head>
+    <title>Main Page</title>
+    <style>
+        a:link {
+            font-size: 1.1em;
+        }
+    </style>
+  </head>
+
+  <body>
+    <div style="height:50px"></div>
+    <div align="center">
+        <a href="/dbs/foo/tables/source">Foo Page</a><br/>
+    </div>
+    <div style="height:20px"></div>
+    <div align="center">
+        <a href="/dbs/bar/tables/dest">Bar Page</a>
+    </div>
+  </body>
+
+
+</html>
