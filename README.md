@@ -36,7 +36,7 @@ mix run --no-halt
 iex -S mix
 ```  
 
-<h5>To view the table by using a get request run: </h5>
+<h5>To view the table by using a <u>GET</u> request run: </h5>
 
 ```
 curl -h http://localhost:4000/dbs/foo/tables/source
