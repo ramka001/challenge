@@ -1,6 +1,7 @@
 # Adjust Code challenge
 <h4>The application is built with Elixir 1.8</h4>
 <h5>The dependency libraries used are:- </h5>
+
 ```
 {:postgrex, ">= 0.0.0"}
 ```
@@ -12,35 +13,43 @@
 <h4>The application needs to its dependencies and has to be compiled prior to execution.</h4>
 
 <h5>To get the dependencies and compile the files run:</h5>
+
 ```
 mix do deps.get, compile
 ```
 
 <h5>To run the test case do:</h5>
+
 ```
 mix test
 ```
 
 <h5>To execute the app you can either run:</h5>
+
 ```
 mix run --no-halt
 ``` 
+
 <h5>or</h5>
+
 ```
 iex -S mix
 ```  
 
-
 <h5>To view the table by using a get request run: </h5>
+
 ```
 curl -h http://localhost:4000/dbs/foo/tables/source
 ``` 
+
 <h5>or</h5>
+
 ```
 curl -h http://localhost:4000/dbs/bar/tables/dest
 ```
 
 <h4>The port that is used for cowboy can be modified using the</h5> 
+
 ```
 config/config.exs
 ``` 
@@ -95,19 +104,22 @@ $ curl -v http://localhost:4000/dbs/foo/tables/source
 * Connection #0 to host localhost left intact
 ```
 
-
 <h5>It can also be run on the browser from the same url as the curl</h5>
+
 ```
 http://localhost:4000/
 ```
+
 <h5>A basic html page is displayed with 2 links i.e. <u>Foo Page</u> and <u>Bar Page</u><h5>
 
 <h5>The <u>Foo Page</u> redirects you to</h5> 
+
 ```
 http://localhost:4000/dbs/foo/tables/source
 ```
 
 <h5>and the <u>Bar Page</u> redirects you to </h5>
+
 ```
 http://localhost:4000/dbs/bar/tables/dest
 ```
