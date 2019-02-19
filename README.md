@@ -13,7 +13,7 @@
 {:plug_cowboy, "~> 2.0"}
 ```
 ##
-### The application needs to its dependencies and has to be built prior to execution.
+### The application needs its dependencies built prior to execution.
 
 #### Before building the app, if there any Database or Cowboy configuration you need to change, please use the
     

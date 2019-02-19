@@ -1706,3 +1706,21 @@ deps/ranch/src/ranch\.app\.src
 deps/ranch/src/ranch\.erl
 
 mix\.lock
+
+challenge\.iml
+
+\.idea/encodings\.xml
+
+\.idea/libraries/earmark\.xml
+
+\.idea/libraries/ex_doc\.xml
+
+\.idea/libraries/hackney\.xml
+
+\.idea/libraries/jason\.xml
+
+\.idea/libraries/kadabra\.xml
+
+\.idea/misc\.xml
+
+\.idea/modules\.xml
