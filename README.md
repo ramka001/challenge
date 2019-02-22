@@ -15,7 +15,7 @@
 ##
 ### The application needs its dependencies built prior to execution.
 
-#### Before building the app, if there any Database or Cowboy configuration you need to change, please use the
+#### Before building the app, if there is any Database or Cowboy configuration you need to change, please use the
     
 ```
 config/config.exs
